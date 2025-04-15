@@ -1,0 +1,34 @@
+footer {
+    background-color: aqua;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid black;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+
+footer .link {
+    display: flex;
+    flex-direction: column;
+}
+
+footer .link a {
+    transition: transform 1.1s ease;
+}
+footer .link a:hover {
+    transform: scale(1.1);
+}
+
+footer p {
+    text-align: center;
+}
+
+
+@media (max-width: 678px) {
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+

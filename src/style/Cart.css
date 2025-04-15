@@ -1,0 +1,30 @@
+.cart-1 {
+    background-color: rgba(128, 128, 128, 0.5);
+    min-height: 99vh;
+    padding: 40px;
+}
+
+.cart-1 h2 {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 40px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.cart-1 .cart-2 {
+    background-color: rgba(0, 255, 255, 0.5);
+    border: 2px solid aqua;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-around;
+    margin: 40px 0 0 0;
+    padding: 40px;
+}
+
+@media (max-width: 678px) {
+    .cart-1 h2 {
+        margin-top: 80px;
+    }
+}
